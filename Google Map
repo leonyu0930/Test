@@ -29,7 +29,7 @@
 
       // Create a <script> tag and set the USGS URL as the source.
       var script = document.createElement('script');
-      script.src = 'http://earthquake.usgs.gov/earthquakes/feed/geojsonp/2.5/week';
+      script.src = 'http://earthquake.usgs.gov/earthquakes/feed/geojsonp/2.5/day';
       document.getElementsByTagName('head')[0].appendChild(script);
     }
 
